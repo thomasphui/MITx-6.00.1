@@ -165,7 +165,7 @@ def playGame(wordList):
             else:
                 print("Invalid command.")
                 print("")
-                selforComp = input("Enter u to have yourself play, c to have the computer play: ")
+                selfOrComp = input("Enter u to have yourself play, c to have the computer play: ")
         else:
             print("Invalid command.")
             userInput = input("Enter n to deal a new hand, r to replay the last hand, or e to end game: ")
